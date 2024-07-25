@@ -26,7 +26,7 @@ jobs:
 
       - name: calculate next version
         id: version
-        uses: rndmh3ro/version-drafter-action@master
+        uses: patrickjahns/version-drafter-action@2076fa43abb28f31d0e8b0890253fbd1d1a966fc # v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

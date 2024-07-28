@@ -145,6 +145,7 @@ This role is mostly based on guides by:
 <!-- BEGIN_ANSIBLE_DOCS -->
 
 ## Supported Operating Systems
+
 - EL
   - 8, 9
 - Ubuntu
@@ -837,11 +838,6 @@ This role is mostly based on guides by:
 - `os_security_kernel_enable_core_dump`
   - Default: `false`
   - Description: kernel is crashing or otherwise misbehaving and a kernel core dump is created.
-  - Type: bool
-  - Required: no
-- `os_security_kernel_enable_module_loading`
-  - Default: `true`
-  - Description: true if you want to allowed to change kernel modules once the system is running (eg `modprobe`, `rmmod`). WARNING - Rebuilding initramfs is deprecated and will be removed in the next major release. For more information take a look at this issue <https://github.com/dev-sec/ansible-collection-hardening/pull/591>
   - Type: bool
   - Required: no
 - `os_security_packages_clean`

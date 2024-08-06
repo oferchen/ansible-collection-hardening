@@ -148,9 +148,9 @@ This role is mostly based on guides by:
 - EL
   - 8, 9
 - Ubuntu
-  - bionic, focal, jammy
+  - focal, jammy, noble
 - Debian
-  - buster, bullseye
+  - bookworm, bullseye
 - Amazon
 - Fedora
 - ArchLinux

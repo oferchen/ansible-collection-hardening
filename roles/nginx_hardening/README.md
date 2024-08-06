@@ -20,9 +20,9 @@ It works with the following nginx-roles, including, but not limited to:
 - EL
   - 8, 9
 - Ubuntu
-  - bionic, focal, jammy
+  - focal, jammy, noble
 - Debian
-  - buster, bullseye
+  - bookworm, bullseye
 - Amazon
 
 ## Role Variables

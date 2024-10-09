@@ -135,6 +135,7 @@ None.
 
 ```
 - hosts: all
+  become: true
   roles:
     - name: devsec.hardening.mysql_hardening
 ```
